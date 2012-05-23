@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+/* CSS for module "practice".   
+ * Testing ability to make CSS for a module, store the CSS as 
+ * an asset, then include the asset CSS in the module layout file. 
+ * This will allow for making a module with reusable CSS which 
+ * can be added to any layout. 
+ */
+
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 12pt Arial,Helvetica,sans-serif;
+	background: #EFEFEF;
+}
+ 
