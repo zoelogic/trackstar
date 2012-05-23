@@ -49,3 +49,7 @@ $this->breadcrumbs=array(
 		<img src="images/starLogo2.gif" alt="starLogo2"/>
 
 <p>You may change the content of this page by modifying the file <tt><?php /* echo __FILE__; */ ?></tt>.</p>
+
+<br /><br />
+<p>Click Test Parameters link in bread crumbs to see how <br />
+parameters are past through a bread crumb link.</p>

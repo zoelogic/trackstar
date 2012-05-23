@@ -4,4 +4,3 @@ application which is based on the book
 Plus, I am adding a practice module for testing 
 what I am learning in the book and for testing 
 various things I would like to build.
-*** :-)   **** :-)

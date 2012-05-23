@@ -7,7 +7,11 @@ class PracticeController extends Controller
 	
 	public function actionManagePractice()
 	{
-		 
+		// If wanted you can test set $_GEt parameters this way.
+		if (isset($_GET['param1'])){
+			echo "Parameter test past.<br />The param1 value is: {$_GET['param1']}";
+		} 
+		
 		$this->render('managePractice');
 	}
 

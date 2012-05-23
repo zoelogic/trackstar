@@ -15,4 +15,49 @@ body
 	font: normal 12pt Arial,Helvetica,sans-serif;
 	background: #EFEFEF;
 }
- 
+
+.practiceModuleLink 
+{	
+	
+	/* color:#FF0000; */
+	font-size: 19px;
+	color:#045ca0;
+}
+
+
+.practiceModuleLink a		 /* unvisited link */
+{	
+	font-size: 22px;
+	color:#045ca0;
+	text-decoration: none;
+	/* color:#FF0000; */
+}
+
+.practiceModuleLink a:link	 /* unvisited link */
+{	
+
+	/* color:#FF0000; */
+	color:#045ca0;
+	text-decoration:none;
+}
+
+.practiceModuleLink a:visited   /* visited link */
+{
+	/* color:#00FF00; */
+	font-size: 12px;
+	color:#045ca0;
+	text-decoration:none;
+}
+
+.practiceModuleLink a:hover  /* mouse over link */
+{
+	/* color:#FF00FF; */
+	color:#14355f;
+	text-decoration:none;
+}
+
+.practiceModuleLink a:active /* selected link */ 
+{
+	color:#0000FF;
+	text-decoration:none;
+}
