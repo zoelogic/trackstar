@@ -12,6 +12,14 @@ return CMap::mergeArray(
 				'connectionString'=>'DSN for test database',
 			),
 			*/
+			'db'=>array(
+					'connectionString' => 'mysql:host=localhost;dbname=trackstar_test',
+					'emulatePrepare' => true,
+					'username' => 'root',
+					'password' => 'g10BalDB',
+					'charset' => 'utf8',
+			),
+				
 		),
 	)
 );
